@@ -1,0 +1,45 @@
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    background-color: #f05252;
+}
+.profile-img img{
+    height: 40vh;
+    border-radius: 50% 50% 50% 50%;
+    width: 40vh;
+    display: block;
+}
+
+.intro h1{
+    color: rgb(247, 162, 176);
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.intro h3{
+    color: rgb(247, 177, 189);
+    font-size: 2em;
+}
+
+.about-btn button{
+    width: 18ch;
+    height: 7vh;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(247, 177, 189);
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in;
+}
+
+.about-btn button:hover{
+    cursor: pointer;
+    color: #f05252;
+    background: rgb(247, 162, 176);
+    border: 1px solid #f05252 ;
+
+}
