@@ -1,6 +1,6 @@
 import React from "react";
 import './profile.css'
-import profile_img from '../../assets/images/ashok1.png'
+import profile_img from '../../assets/images/ashok2.webp'
 const Profile = () => {
     const scrollToAbout = () => {
         const section = document.getElementById('about');
@@ -10,7 +10,7 @@ const Profile = () => {
         <>
         <div className="profile">
             <div className="profile-img">
-                <img src={profile_img}></img>
+                <img src={profile_img} alt="Profile photo"></img>
             </div>
             <div className="intro">
                 <h1>Ashok kumar</h1>
